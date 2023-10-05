@@ -1,0 +1,175 @@
+/* Cambia el color de fondo del encabezado */
+header {
+    background-color: #3498db; /* Azul */
+}
+
+/* Cambia el color del texto del encabezado a blanco */
+header h1 {
+    color: #fff; /* Blanco */
+}
+
+/* Cambia el tamaño del texto del encabezado h2 en la sección "Sobre mi" */
+section h2 {
+    font-size: 24px; /* Tamaño de fuente más grande */
+}
+#sobre-mi {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Cambia el color del texto de la lista de temas destacados a verde */
+ul li {
+    color: #00a65a; /* Verde */
+}
+
+/* Cambia el tamaño del texto del artículo */
+article {
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+article {
+    border: 1px solid #ccc;   /* Borde de 1 píxel sólido de color gris */
+    margin: 10px;             /* Márgenes exteriores de 10 píxeles */
+    padding: 20px;            /* Relleno interior de 20 píxeles */
+}
+
+/* Cambia el color del enlace de correo electrónico */
+address a {
+    color: #02ffea; /* Rojo */
+}
+
+/* Cambia el tamaño de la imagen de pie de página */
+footer img {
+    width: 200px; /* Ancho más grande */
+    height: 200px; /* Alto más grande */
+}
+/* Estilo para las celdas de encabezado de la tabla */
+th {
+    background-color: #577486; /* Color de fondo azul */
+    color: #fff; /* Texto en color blanco */
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+/* Estilo para las celdas de datos de la tabla */
+td {
+    border: 1px solid #ccc; /* Borde de 1 píxel sólido en gris claro */
+    padding: 8px; /* Espaciado interno */
+}
+
+/* Estilo para los enlaces internos */
+a {
+    text-decoration: none; /* Sin subrayado */
+    color: #e74c3c; /* Color rojo para los enlaces */
+}
+
+/* Estilo para los enlaces externos */
+a.external {
+    text-decoration: underline; /* Subrayado para enlaces externos */
+    color: #3498db; /* Color azul para enlaces externos */
+}
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #04090c;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+/* Estilo para los elementos de la lista del menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilo para los enlaces del menú */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}       
+/* Estilo para los párrafos importantes */
+.parrafo-importante {
+    color: #630e0e;
+    font-size: 18px;
+}
+
+/* Estilo para los títulos de sección */
+.subtitulo {
+    font-size: 24px;
+}
+/* Estilo para la lista enlazada */
+.lista-enlazada {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-enlazada li {
+    margin-bottom: 10px;
+}
+
+.lista-enlazada a {
+    text-decoration: none;
+    color: #00a65a;
+}
+
+.lista-enlazada a:hover {
+    text-decoration: underline;
+}
+/* Estilo para el botón */
+.boton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn-custom {
+    background-color: #ff5733; /* Cambia el color de fondo a naranja personalizado */
+  } 
+/* Estilo para párrafos importantes */
+.parrafo-importante {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Estilo para párrafos normales */
+.parrafo-normal {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Estilo para el párrafo único utilizando un ID */
+#parrafo-unico {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #3498db;
+}
+
+/* Estilo para el botón cuando el mouse está sobre él */
+.boton:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+/* Estilo para el botón cuando está activo (haciendo clic en él) */
+.boton:active {
+    background-color: #c1e61d;
+    
+}   
+.boton {
+    background-color: #3498db;
+    color: #960000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

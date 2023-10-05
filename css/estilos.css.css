@@ -1,0 +1,19 @@
+/* Cambiar el color de fondo de la sección de encabezado */
+header {
+    background-color: #3498db;
+}
+
+/* Cambiar el color del texto del encabezado */
+header h1 {
+    color: #fff;
+}
+
+/* Modificar el tamaño de texto usando una clase */
+.titulo-grande {
+    font-size: 24px;
+}
+
+/* Cambiar el tipo de letra utilizando un ID */
+#texto-especial {
+    font-family: "Arial", sans-serif;
+}
